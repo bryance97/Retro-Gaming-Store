@@ -1,5 +1,5 @@
 {
-  "name": "retro-gaming",
+  "name": "mern-shopping",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -10,12 +10,9 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "graphql": "^15.8.0",
-    "if-env": "^1.0.4"
-  },
   "devDependencies": {
     "concurrently": "^5.1.0"
   }
