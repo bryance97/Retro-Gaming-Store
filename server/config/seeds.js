@@ -55,7 +55,7 @@ db.once('open', async () => {
     },
     {
       name: '007 - Tomrrow Never Dies PS1 1999',
-      category: categories[2]._id,
+      category: categories[3]._id,
       description:
         'Tomorrow Never Dies is a 1999 third-person shooter stealth video game based on the 1997 James Bond film of the same name.',
       image: '007.jpg',
@@ -121,7 +121,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Kirbys Adventure is a 1993 platform game developed by HAL Laboratory and published by Nintendo for the Nintendo Entertainment System.',
-      image: 'kirby.jpg',
+      image: 'kirby.png',
       price: 18.99,
       quantity: 50
     },
@@ -153,11 +153,11 @@ db.once('open', async () => {
       quantity: 512
     },
     {
-      name: 'Mortal Combat - Deception XB 2004',
+      name: 'Mortal Kombat - Deception XB 2004',
       category: categories[1]._id,
       description:
         'Mortal Kombat: Deception is a fighting video game developed and published by Midway as the sixth installment of the Mortal Kombat video game franchise.',
-      image: 'mortalcombat.jpg',
+      image: 'mortalkombat.jpg',
       price: 18.99,
       quantity: 13
     },
@@ -184,7 +184,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'Scooby-Doo! Night of 100 Frights is a third person platform game with action elements that was developed by Heavy Iron Studios and published by THQ for the PlayStation 2, GameCube, and Xbox consoles.',
-      image: 'cod2.jpg',
+      image: 'scooby.jpg',
       price: 50.00,
       quantity: 6
     },
