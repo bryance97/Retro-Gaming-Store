@@ -14,11 +14,11 @@ code {
 
 /* Our CSS here */
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
+  --primary: #001e42;
+  --secondary: #70110e;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #272f32;
+  --light: #ffffff;
+  --dark: #f3f3f3;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -31,16 +31,18 @@ code {
 html,
 body {
   min-height: 100%;
+  background-color: black;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  text-decoration: none;
 }
 
 h1,
@@ -49,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -111,6 +113,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
+  color: white;
   background-color: var(--secondary);
 }
 
