@@ -15,9 +15,9 @@ code {
 /* Our CSS here */
 :root {
   --primary: #001e42;
-  --secondary: #70110e;
+  --secondary: #b42a25;
   --tertiary: #B12704;
-  --light: #ffffff;
+  --light: #fdfdfd;
   --dark: #050505;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -41,7 +41,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
+  color: var(--secondary);
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
 }
@@ -97,7 +97,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 header a {
